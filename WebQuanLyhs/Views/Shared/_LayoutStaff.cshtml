@@ -144,7 +144,7 @@
 
                         <ul class="navbar-nav flex-row align-items-center ms-auto">
                             <!-- User -->
-                            <li class="nav-item navbar-dropdown dropdown-user dropdown">
+                            <li style="margin-right:100px" class="nav-item navbar-dropdown dropdown-user dropdown">
                                 <a class="nav-link dropdown-toggle hide-arrow" href="#" onclick="toggleDropdown()" data-bs-toggle="dropdown">
                                     @if (!string.IsNullOrEmpty(avata))
                                     {
@@ -155,24 +155,25 @@
                                     else
                                     {
                                         <div class="avatar avatar-online">
-                                            <img src="~/assets/img/avatars/1.png" alt="" class="w-px-40 h-auto rounded-circle" />
+                                            <img src="~/Hinh/Logo/user.png" alt="" class="w-px-40 h-auto rounded-circle" />
                                         </div>
                                     }
+
                                 </a>
 
+
+
+                                <div style="margin: -40px 0 0 60px;" class="d-flex">
+                                    <div class="flex-shrink-0 ">
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <span class="fw-semibold d-block">@username</span>
+                                    </div>
+                                </div>
+
+
+
                                 <ul class="dropdown-menu dropdown-menu-end">
-                                    <li>
-                                        <a class="dropdown-item" href="#">
-                                            <div class="d-flex">
-                                                <div class="flex-shrink-0 me-3">
-                                                    
-                                                </div>
-                                                <div class="flex-grow-1">
-                                                    <span class="fw-semibold d-block">@username</span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
 
                                     <li>
                                         <div class="dropdown-divider"></div>

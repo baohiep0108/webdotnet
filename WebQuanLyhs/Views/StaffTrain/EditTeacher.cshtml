@@ -1,90 +1,103 @@
 ﻿@model BusinessObject.Data.User
 
 @{
-    ViewData["Title"] = "EditTeacher";
+	ViewData["Title"] = "EditTeacher";
 }
 @{
-    Layout = "_LayoutStaff";
+	Layout = "_LayoutStaff";
 }
 
 
 
 
 <h4 class="fw-bold py-3 mb-4">
-    <span class="text-muted fw-light"> Teacher management /</span> Edit account
+	<span class="text-muted fw-light"> Teacher management /</span> Edit account
 </h4>
 <div class="row">
-    <div class="col-xxl">
-        <div class="card mb-4">
-            <div class="card-body">
-        <form asp-action="EditTeacher">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="User_id" />
+	<div class="col-xxl">
+		<div class="card mb-4">
+			<div class="card-body">
+				<form asp-action="EditTeacher">
+					<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+					<input type="hidden" asp-for="User_id" />
 
 
-                    <div class="row mb-3 form-group">
-                        <label class="col-sm-2 col-form-label control-label" asp-for="Email"></label>
-                        <div class="col-sm-10">
-                            <input asp-for="Email" class="form-control phone-mask" placeholder="Input your Email">
-                        </div>
-                        <span asp-validation-for="Email" class="text-danger"></span>
-                    </div>
-           
-          
+					<div class="row mb-3 form-group">
+						<label class="col-sm-2 col-form-label control-label" asp-for="Email"></label>
+						<div class="col-sm-10">
+							<input asp-for="Email" class="form-control phone-mask" placeholder="Input your Email">
+						</div>
+						<span asp-validation-for="Email" class="text-danger"></span>
+					</div>
+					<div class="row mb-3 form-group">
+						<label class="col-sm-2 col-form-label control-label" asp-for="Password"></label>
+						<div class="col-sm-10">
+							<input asp-for="Password" class="form-control phone-mask" placeholder="Input your password">
+						</div>
+						<span asp-validation-for="Password" class="text-danger"></span>
+					</div>
 
-                    <div class="row mb-3 form-group">
-                        <label class="col-sm-2 col-form-label control-label" asp-for="Password"></label>
-                        <div class="col-sm-10">
-                            <input asp-for="Password" class="form-control phone-mask" placeholder="Input your password">
-                        </div>
-                        <span asp-validation-for="Password" class="text-danger"></span>
-                    </div>
+					<div class="row mb-3 form-group">
+						<label class="col-sm-2 col-form-label control-label" asp-for="Fullname"></label>
+						<div class="col-sm-10">
+							<input asp-for="Fullname" class="form-control phone-mask" placeholder="Input your full name">
+						</div>
+						<span asp-validation-for="Fullname" class="text-danger"></span>
+					</div>
+					<div class="row mb-3 form-group">
+						<label class="col-sm-2 col-form-label control-label" asp-for="Phone"></label>
+						<div class="col-sm-10">
+							<input asp-for="Phone" class="form-control phone-mask" placeholder="Input your Phone">
+						</div>
+						<span asp-validation-for="Phone" class="text-danger"></span>
+					</div>
+					<div class="row mb-3 form-group">
+						<label class="col-sm-2 col-form-label control-label" asp-for="Sex_name"></label>
+						<div class="col-sm-10">
+							<input asp-for="Sex_name" class="form-control phone-mask" placeholder="Input your genaral">
+						</div>
+						<span asp-validation-for="Sex_name" class="text-danger"></span>
+					</div>
 
-                    <div class="row mb-3 form-group">
-                        <label class="col-sm-2 col-form-label control-label" asp-for="Fullname"></label>
-                        <div class="col-sm-10">
-                            <input asp-for="Fullname" class="form-control phone-mask" placeholder="Input your full name">
-                        </div>
-                        <span asp-validation-for="Fullname" class="text-danger"></span>
-                    </div>
-                    <div class="row mb-3 form-group">
-                        <label class="col-sm-2 col-form-label control-label" asp-for="Phone"></label>
-                        <div class="col-sm-10">
-                            <input asp-for="Phone" class="form-control phone-mask" placeholder="Input your Phone">
-                        </div>
-                        <span asp-validation-for="Phone" class="text-danger"></span>
-                    </div>
-                    <div class="row mb-3 form-group">
-                        <label class="col-sm-2 col-form-label control-label" asp-for="Sex_name"></label>
-                        <div class="col-sm-10">
-                            <input asp-for="Sex_name" class="form-control phone-mask" placeholder="Input your genaral">
-                        </div>
-                        <span asp-validation-for="Sex_name" class="text-danger"></span>
-                    </div>
-                  
-                    <div class="row mb-3 form-group">
-                        <label class="col-sm-2 col-form-label control-label" asp-for="CCCD"></label>
-                        <div class="col-sm-10">
-                            <input asp-for="CCCD" class="form-control phone-mask" placeholder="Input your CCCD">
-                        </div>
-                        <span asp-validation-for="CCCD" class="text-danger"></span>
-                    </div>
-                
-        
-          
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-outline-success" />
-            </div>
-        </form>
-    </div>
-</div>
-</div>
+					<div class="row mb-3 form-group">
+						<label class="col-sm-2 col-form-label control-label" asp-for="CCCD"></label>
+						<div class="col-sm-10">
+							<input asp-for="CCCD" class="form-control phone-mask" placeholder="Input your CCCD">
+						</div>
+						<span asp-validation-for="CCCD" class="text-danger"></span>
+					</div>
+					<div class="row mb-3 form-group">
+						<label class="col-sm-2 col-form-label control-label" asp-for="Detail"></label>
+						<div class="col-sm-10">
+							<input asp-for="Detail" class="form-control phone-mask" placeholder="Input your Detail">
+						</div>
+						<span asp-validation-for="Detail" class="text-danger"></span>
+					</div>
+					<div class="row mb-3 form-group">
+						<label class="col-sm-2 col-form-label control-label" asp-for="Avata"></label>
+						<div class="col-sm-10">
+							<input asp-for="Avata" class="form-control phone-mask" placeholder="Input your Avata">
+						</div>
+						<span asp-validation-for="Avata" class="text-danger"></span>
+					</div>
+
+
+
+					<div class="form-group">
+						<input type="submit" value="Save" class="btn btn-outline-success" />
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
 </div>
 
 <div class="d-flex justify-content-end">
-    <a class="btn btn-danger ml-auto" asp-action="TeacherIndex">Back to List</a>
+	<a class="btn btn-danger ml-auto" asp-action="TeacherIndex">Back to List</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
 }
