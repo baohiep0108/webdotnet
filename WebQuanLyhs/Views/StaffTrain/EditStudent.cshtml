@@ -8,50 +8,69 @@
 }
 
 
-<h1>EditStudent</h1>
-
-<h4>User</h4>
-<hr />
+<h4 class="fw-bold py-3 mb-4">
+    <span class="text-muted fw-light"> Student management /</span> Edit account
+</h4>
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-xxl">
+        <div class="card mb-4">
+            <div class="card-body">
         <form asp-action="EditStudent">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="User_id" />
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Password" class="control-label"></label>
-                <input asp-for="Password" class="form-control" />
-                <span asp-validation-for="Password" class="text-danger"></span>
-            </div> 
-            <div class="form-group">
-                <label asp-for="Fullname" class="control-label"></label>
-                <input asp-for="Fullname" class="form-control" />
-                <span asp-validation-for="Fullname" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Phone" class="control-label"></label>
-                <input asp-for="Phone" class="form-control" />
-                <span asp-validation-for="Phone" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Detail" class="control-label"></label>
-                <input asp-for="Detail" class="form-control" />
-                <span asp-validation-for="Detail" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Sex_name" class="control-label"></label>
-                <input asp-for="Sex_name" class="form-control" />
-                <span asp-validation-for="Sex_name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CCCD" class="control-label"></label>
-                <input asp-for="CCCD" class="form-control" />
-                <span asp-validation-for="CCCD" class="text-danger"></span>
-            </div>
+                    <div class="row mb-3 form-group">
+                        <label class="col-sm-2 col-form-label control-label" asp-for="Email"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Email" class="form-control phone-mask" placeholder="Input your Email">
+                        </div>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="row mb-3 form-group">
+                        <label class="col-sm-2 col-form-label control-label" asp-for="Password"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Password" class="form-control phone-mask" placeholder="Input your Password">
+                        </div>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="row mb-3 form-group">
+                        <label class="col-sm-2 col-form-label control-label" asp-for="Fullname"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Fullname" class="form-control phone-mask" placeholder="Input your Fullname">
+                        </div>
+                        <span asp-validation-for="Fullname" class="text-danger"></span>
+                    </div>
+
+                    <div class="row mb-3 form-group">
+                        <label class="col-sm-2 col-form-label control-label" asp-for="Phone"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Phone" class="form-control phone-mask" >
+                        </div>
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </div>
+                    
+                  
+                    <div class="row mb-3 form-group">
+                        <label class="col-sm-2 col-form-label control-label" asp-for="Sex_name"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Sex_name" class="form-control phone-mask">
+                        </div>
+                        <span asp-validation-for="Sex_name" class="text-danger"></span>
+                    </div>
+                    <div class="row mb-3 form-group">
+                        <label class="col-sm-2 col-form-label control-label" asp-for="CCCD"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="CCCD" class="form-control phone-mask">
+                        </div>
+                        <span asp-validation-for="CCCD" class="text-danger"></span>
+                    </div>
+                    <div class="row mb-3 form-group">
+                        <label class="col-sm-2 col-form-label control-label" asp-for="CCCD"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="CCCD" class="form-control phone-mask">
+                        </div>
+                        <span asp-validation-for="CCCD" class="text-danger"></span>
+                    </div>
             <div class="row mb-3 form-group">
                 <label class="col-sm-2 col-form-label control-label" asp-for="Detail"></label>
                 <div class="col-sm-10">
@@ -59,24 +78,23 @@
                 </div>
                 <span asp-validation-for="Detail" class="text-danger"></span>
             </div>
-            <div class="row mb-3 form-group">
-                <label class="col-sm-2 col-form-label control-label" asp-for="Avata"></label>
-                <div class="col-sm-10">
-                    <input asp-for="Avata" class="form-control phone-mask" >
-                </div>
-                <span asp-validation-for="Avata" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
+
+
+                    <div class="row form-group">
+                        <div class="col-sm-10">
+                            <input type="submit" value="Save" class="btn btn-outline-success" />
+                        </div>
+                    </div>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="StudentIndex">Back to List</a>
+</div>
 </div>
 
+
+<div class="d-flex justify-content-end">
+    <a class="btn btn-danger ml-auto" asp-action="StudentIndex">Back to List</a>
+</div>
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

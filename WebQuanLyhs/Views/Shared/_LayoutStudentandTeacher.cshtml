@@ -41,7 +41,7 @@
                             }
                             else
                             {
-                                <img src="~/assets/img/avatars/1.png" alt="img" width="32" height="32" class=" rounded-circle " />
+                                <img src="~/Hinh/Logo/user.jpg" alt="img" width="32" height="32" class=" rounded-circle " />
 
                             }
                         </a>
@@ -57,11 +57,13 @@
                 </div>
             </div>
         </header>
-        <div class="container content">
+        <div class="container content;" >
+            <div class="row col-md-12 " style="min-width:720px; margin-left:2px; ">
             @RenderSection("Sidebar", required: false)
+            </div>
 
-            <div class="row justify-content-around">
-                <div style="min-height:620px" class="col-4">
+            <div style="background-color:gainsboro;" class="row justify-content-around">
+                <div style="min-height:620px;" class="col-4">
                     @RenderBody()
                 </div>
 
@@ -69,7 +71,7 @@
         </div>
 
         <div class="container footer">
-            <footer class="py-5 my-4 ">
+            <footer>
                 <p class="text-center ">&copy; FPT Polytechnic International</p>
                 <p class="text-center ">Contact: Phone number goes here</p>
                 <p class="text-center">Address: Address goes here</p>
