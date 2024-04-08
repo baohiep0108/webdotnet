@@ -1,627 +1,639 @@
 {
   "Files": [
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebQuanLyhs.bundle.scp.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebQuanLyhs.bundle.scp.css",
       "PackagePath": "staticwebassets\\WebQuanLyhs.bundle.scp.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\Hinh\\Exercise\\CV Phan Quang Hop .pdf",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\Hinh\\Exercise\\CV Phan Quang Hop .pdf",
       "PackagePath": "staticwebassets\\Hinh\\Exercise\\CV Phan Quang Hop .pdf"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\Hinh\\Exercise\\Phan-Quang-Hop-TopCV.vn-300124.110239.pdf",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\Hinh\\Exercise\\Phan-Quang-Hop-TopCV.vn-300124.110239.pdf",
       "PackagePath": "staticwebassets\\Hinh\\Exercise\\Phan-Quang-Hop-TopCV.vn-300124.110239.pdf"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\Hinh\\Filenopbt\\433848048_432224846127056_8130407065849591714_n.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\Hinh\\Filenopbt\\433848048_432224846127056_8130407065849591714_n.jpg",
       "PackagePath": "staticwebassets\\Hinh\\Filenopbt\\433848048_432224846127056_8130407065849591714_n.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\Hinh\\Filenopbt\\CV Phan Quang Hop .pdf",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\Hinh\\Filenopbt\\CV Phan Quang Hop .pdf",
       "PackagePath": "staticwebassets\\Hinh\\Filenopbt\\CV Phan Quang Hop .pdf"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\Hinh\\Filenopbt\\R.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\Hinh\\Filenopbt\\OIP.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\Filenopbt\\OIP.jpg"
+    },
+    {
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\Hinh\\Filenopbt\\R.jpg",
       "PackagePath": "staticwebassets\\Hinh\\Filenopbt\\R.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\Hinh\\Filenopbt\\Thiết kế chưa có tên.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\Hinh\\Filenopbt\\Thiết kế chưa có tên.png",
       "PackagePath": "staticwebassets\\Hinh\\Filenopbt\\Thiết kế chưa có tên.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\Hinh\\Filenopbt\\logo1E.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\Hinh\\Filenopbt\\Wenhao-Sha.png",
+      "PackagePath": "staticwebassets\\Hinh\\Filenopbt\\Wenhao-Sha.png"
+    },
+    {
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\Hinh\\Filenopbt\\logo1E.png",
       "PackagePath": "staticwebassets\\Hinh\\Filenopbt\\logo1E.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\Hinh\\Filenopbt\\z5088662474634_a6917b5e583d196897b1a5715a758938.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\Hinh\\Filenopbt\\z5088662474634_a6917b5e583d196897b1a5715a758938.jpg",
       "PackagePath": "staticwebassets\\Hinh\\Filenopbt\\z5088662474634_a6917b5e583d196897b1a5715a758938.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\Hinh\\Logo\\logo-removebg-preview.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\Hinh\\Logo\\logo-removebg-preview.png",
       "PackagePath": "staticwebassets\\Hinh\\Logo\\logo-removebg-preview.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\Hinh\\Logo\\logo.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\Hinh\\Logo\\logo.png",
       "PackagePath": "staticwebassets\\Hinh\\Logo\\logo.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\Hinh\\Logo\\sl1.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\Hinh\\Logo\\sl1.jpg",
       "PackagePath": "staticwebassets\\Hinh\\Logo\\sl1.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\Hinh\\Logo\\sl2.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\Hinh\\Logo\\sl2.jpg",
       "PackagePath": "staticwebassets\\Hinh\\Logo\\sl2.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\Hinh\\Logo\\sl4.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\Hinh\\Logo\\sl4.jpg",
       "PackagePath": "staticwebassets\\Hinh\\Logo\\sl4.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\css\\demo.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\Hinh\\Logo\\user.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\Logo\\user.jpg"
+    },
+    {
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\css\\demo.css",
       "PackagePath": "staticwebassets\\assets\\css\\demo.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\avatars\\1.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\avatars\\1.png",
       "PackagePath": "staticwebassets\\assets\\img\\avatars\\1.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\avatars\\5.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\avatars\\5.png",
       "PackagePath": "staticwebassets\\assets\\img\\avatars\\5.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\avatars\\6.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\avatars\\6.png",
       "PackagePath": "staticwebassets\\assets\\img\\avatars\\6.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\avatars\\7.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\avatars\\7.png",
       "PackagePath": "staticwebassets\\assets\\img\\avatars\\7.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\backgrounds\\18.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\backgrounds\\18.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\18.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\1.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\1.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\11.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\11.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\11.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\12.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\12.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\12.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\13.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\13.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\13.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\17.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\17.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\17.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\18.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\18.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\18.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\19.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\19.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\19.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\2.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\2.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\20.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\20.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\20.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\3.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\3.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\4.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\4.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\5.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\5.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\5.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\7.jpg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\elements\\7.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\elements\\7.jpg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\favicon\\favicon.ico",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\favicon\\favicon.ico",
       "PackagePath": "staticwebassets\\assets\\img\\favicon\\favicon.ico"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\asana.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\asana.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\asana.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\behance.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\behance.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\behance.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\dribbble.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\dribbble.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\dribbble.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\facebook.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\facebook.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\facebook.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\github.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\github.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\github.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\google.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\google.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\google.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\instagram.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\instagram.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\instagram.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\mailchimp.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\mailchimp.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\mailchimp.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\slack.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\slack.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\slack.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\twitter.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\brands\\twitter.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\twitter.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\unicons\\cc-primary.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\cc-primary.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\unicons\\cc-success.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\unicons\\cc-success.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\cc-success.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\unicons\\cc-warning.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\cc-warning.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\unicons\\chart-success.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\unicons\\chart-success.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\chart-success.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\unicons\\chart.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\unicons\\chart.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\chart.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\unicons\\paypal.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\unicons\\paypal.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\paypal.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\unicons\\wallet-info.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\wallet-info.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\unicons\\wallet.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\icons\\unicons\\wallet.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\wallet.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\illustrations\\man-with-laptop-light.png",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\man-with-laptop-light.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\illustrations\\page-misc-error-light.png",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\page-misc-error-light.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\layouts\\layout-container-light.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\layouts\\layout-container-light.png",
       "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-container-light.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\layouts\\layout-fluid-light.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\layouts\\layout-fluid-light.png",
       "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-fluid-light.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\layouts\\layout-without-menu-light.png",
       "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-without-menu-light.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\img\\layouts\\layout-without-navbar-light.png",
       "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-without-navbar-light.png"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\js\\config.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\js\\config.js",
       "PackagePath": "staticwebassets\\assets\\js\\config.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\js\\dashboards-analytics.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\js\\dashboards-analytics.js",
       "PackagePath": "staticwebassets\\assets\\js\\dashboards-analytics.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\js\\extended-ui-perfect-scrollbar.js",
       "PackagePath": "staticwebassets\\assets\\js\\extended-ui-perfect-scrollbar.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\js\\form-basic-inputs.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\js\\form-basic-inputs.js",
       "PackagePath": "staticwebassets\\assets\\js\\form-basic-inputs.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\js\\main.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\js\\main.js",
       "PackagePath": "staticwebassets\\assets\\js\\main.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\js\\pages-account-settings-account.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\js\\pages-account-settings-account.js",
       "PackagePath": "staticwebassets\\assets\\js\\pages-account-settings-account.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\js\\ui-modals.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\js\\ui-modals.js",
       "PackagePath": "staticwebassets\\assets\\js\\ui-modals.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\js\\ui-popover.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\js\\ui-popover.js",
       "PackagePath": "staticwebassets\\assets\\js\\ui-popover.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\js\\ui-toasts.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\js\\ui-toasts.js",
       "PackagePath": "staticwebassets\\assets\\js\\ui-toasts.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\css\\core.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\css\\core.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\css\\core.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\css\\pages\\page-account-settings.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-account-settings.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\css\\pages\\page-auth.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\css\\pages\\page-auth.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-auth.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\css\\pages\\page-icons.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\css\\pages\\page-icons.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-icons.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\css\\pages\\page-misc.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\css\\pages\\page-misc.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-misc.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\css\\theme-default.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\css\\theme-default.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\css\\theme-default.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\fonts\\boxicons.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\fonts\\boxicons.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
       "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
       "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
       "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
       "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\js\\bootstrap.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\js\\helpers.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\js\\helpers.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\js\\helpers.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\js\\menu.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\js\\menu.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\js\\menu.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight-github.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight-github.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\jquery\\jquery.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\jquery\\jquery.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\masonry\\masonry.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\masonry\\masonry.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\popper\\popper.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\assets\\vendor\\libs\\popper\\popper.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\libs\\popper\\popper.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\css\\Login.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\css\\Login.css",
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\css\\homepage.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\css\\homepage.css",
       "PackagePath": "staticwebassets\\css\\homepage.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\css\\profile.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\css\\profile.css",
       "PackagePath": "staticwebassets\\css\\profile.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\css\\site.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\favicon.ico",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\js\\site.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\New folder (9)\\WebQuanLyhs\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Projectcuoiky\\webdoan\\WebQuanLyhs\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

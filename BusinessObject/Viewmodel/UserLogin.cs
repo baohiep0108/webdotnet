@@ -15,7 +15,7 @@ namespace BusinessObject.Viewmodel
 
         public string ?Email { get; set; }
 
-        [Required(ErrorMessage = "Account is incorrect")]
+        [Required(ErrorMessage = "Password is incorrect")]
         [DataType(DataType.Password)]
         public string ?Password { get; set; }
         public string ?Fullname { get; set; }

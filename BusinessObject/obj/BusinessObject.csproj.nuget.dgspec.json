@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\New folder (9)\\BusinessObject\\BusinessObject.csproj": {}
+    "D:\\Projectcuoiky\\webdoan\\BusinessObject\\BusinessObject.csproj": {}
   },
   "projects": {
-    "D:\\New folder (9)\\BusinessObject\\BusinessObject.csproj": {
+    "D:\\Projectcuoiky\\webdoan\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder (9)\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "D:\\Projectcuoiky\\webdoan\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\New folder (9)\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\phanh\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder (9)\\BusinessObject\\obj\\",
+        "projectPath": "D:\\Projectcuoiky\\webdoan\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Projectcuoiky\\webdoan\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\phanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -89,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
