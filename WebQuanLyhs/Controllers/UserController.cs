@@ -98,7 +98,6 @@ namespace WebQuanLyhs.Controllers
         }
         public ActionResult Profile()
         {
-            // Lấy ID của người dùng từ session
             int? userId = HttpContext.Session.GetInt32("ID");
 
             if (userId == null)
@@ -117,12 +116,19 @@ namespace WebQuanLyhs.Controllers
         }
         public ActionResult EditProfile(int id)
         {
+            int? user = HttpContext.Session.GetInt32("ID");
+            if (user == null)
+            {
+                return Redirect("/User/Login");
+            }
             var item = db.Users.Find(id);
             return View(item);
         }
         [HttpPost]
         public IActionResult EditProfile(Profile model)
         {
+          
+
             var user = db.Users.FirstOrDefault(u => u.User_id == model.User_id);
 
             if (user == null)
@@ -136,9 +142,7 @@ namespace WebQuanLyhs.Controllers
             user.Fullname = model.Fullname;
             user.Detail = model.Detail;
             user.Sex_name = model.Sex_name;
-            user.Avata = Myunti.UploadHinh(model.Avata, "Filenopbt");
             user.CCCD = model.CCCD;
-
           
 
             db.Entry(user).State = EntityState.Modified;
@@ -147,6 +151,32 @@ namespace WebQuanLyhs.Controllers
 
             // Chuyển hướng đến trang Profile
             return RedirectToAction("Profile");
+        }
+        public IActionResult Uploadimg()
+        {
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null )
+            {
+                return Redirect("/User/Login");
+            }
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Uploadimg(Upload model ,int id )
+        {
+
+            var user = db.Users.FirstOrDefault(u => u.User_id == id);
+
+            if (user != null)
+            {
+                user.Avata = Myunti.UploadHinh(model.Avata, "Filenopbt");
+                db.Entry(user).State = EntityState.Modified;
+                db.SaveChanges();
+
+            }
+            int userid = (int)HttpContext.Session.GetInt32("ID");
+
+            return RedirectToAction("Profile", new { id = userid });
         }
 
 

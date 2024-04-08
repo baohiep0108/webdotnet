@@ -12,7 +12,6 @@ namespace WebQuanLyhs.DTO
         public string? Detail { get; set; }
         public string? Sex_name { get; set; }
         public string? CCCD { get; set; }
-        public IFormFile Avata { get; set; }
 
     }
 }

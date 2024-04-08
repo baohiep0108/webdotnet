@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebQuanLyhs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+721e96de1562b6c71bbac7bf385e32ceede2983c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebQuanLyhs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebQuanLyhs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

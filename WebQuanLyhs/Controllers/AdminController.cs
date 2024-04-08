@@ -24,6 +24,11 @@ namespace WebQuanLyhs.Controllers
 
         public IActionResult Index()
         {
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 1)
+            {
+                return Redirect("/User/Login");
+            }
             var usersWithRoles = db.Users.Include(u => u.Role).ToList();
             var admin = db.Users;
             
@@ -31,6 +36,11 @@ namespace WebQuanLyhs.Controllers
         }
         public ActionResult AddAccount()
         {
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 1)
+            {
+                return Redirect("/User/Login");
+            }
             var phanLoaiSVList = db.Roles.ToList();
             ViewBag.PhanLoaiSVList = new SelectList(phanLoaiSVList, "Role_id", "Role_name");
             return View();
@@ -53,6 +63,11 @@ namespace WebQuanLyhs.Controllers
         }
         public IActionResult EditAcc(int id)
         {
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 1)
+            {
+                return Redirect("/User/Login");
+            }
             var item = db.Users.Find(id);
             var phanLoaiSVList = db.Roles.ToList();
             ViewBag.PhanLoaiSVList = new SelectList(phanLoaiSVList, "Role_id", "Role_name");
@@ -63,10 +78,14 @@ namespace WebQuanLyhs.Controllers
 
         public IActionResult EditAcc(User model)
         {
-           
-                db.Users.Attach(model);
+            var user = db.Users.FirstOrDefault(u => u.User_id == model.User_id);
 
-                db.Update(model);
+            model.Detail = user.Detail;
+            model.CCCD = user.CCCD;
+            model.Sex_name = user.Sex_name;
+            model.Avata = user.Avata;
+
+                db.Update(user);
 
                 db.SaveChanges();
                     return RedirectToAction("Index");
@@ -88,13 +107,22 @@ namespace WebQuanLyhs.Controllers
 		#region Category_Course
 		public IActionResult CategoryIndex()
 		{
-			var category = db.Category_Courses.ToList();
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 1)
+            {
+                return Redirect("/User/Login");
+            }
+            var category = db.Category_Courses.ToList();
 			return View(category);
 		}
 		public ActionResult AddCategory()
 		{
-
-			return View();
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 1)
+            {
+                return Redirect("/User/Login");
+            }
+            return View();
 		}
 		[HttpPost]
 		[ValidateAntiForgeryToken]
@@ -112,7 +140,12 @@ namespace WebQuanLyhs.Controllers
 		}
 		public IActionResult EditCategory(int id)
 		{
-			var item = db.Category_Courses.Find(id);
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 1)
+            {
+                return Redirect("/User/Login");
+            }
+            var item = db.Category_Courses.Find(id);
 			return View(item);
 		}
 		[HttpPost]
@@ -146,14 +179,23 @@ namespace WebQuanLyhs.Controllers
 
 		public IActionResult CourseIndex()
 		{
-			var usersWithRoles = db.Courses.Include(u => u.Category_Course).ToList();
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 1)
+            {
+                return Redirect("/User/Login");
+            }
+            var usersWithRoles = db.Courses.Include(u => u.Category_Course).ToList();
 			var course = db.Courses.ToList();
 			return View(course);
 		}
 		public ActionResult AddCourse()
 		{
-
-			var phanLoaiSVList = db.Category_Courses.ToList();
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 1)
+            {
+                return Redirect("/User/Login");
+            }
+            var phanLoaiSVList = db.Category_Courses.ToList();
 			ViewBag.KhoaHocSVList = new SelectList(phanLoaiSVList, "Category_coures_id", "Category_name");
 			return View();
 		}
@@ -173,7 +215,12 @@ namespace WebQuanLyhs.Controllers
 		}
 		public IActionResult EditCourse(int id)
 		{
-			var phanLoaiSVList = db.Category_Courses.ToList();
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 1)
+            {
+                return Redirect("/User/Login");
+            }
+            var phanLoaiSVList = db.Category_Courses.ToList();
 			ViewBag.KhoaHocSVList = new SelectList(phanLoaiSVList, "Category_coures_id", "Category_name");
 			var item = db.Courses.Find(id);
 			return View(item);

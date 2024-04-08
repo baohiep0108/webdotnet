@@ -9,215 +9,231 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebQuanLyhs
 build_property.RootNamespace = WebQuanLyhs
-build_property.ProjectDir = C:\Users\Admin\Downloads\Web-main\Web-main\WebQuanLyhs\
+build_property.ProjectDir = D:\New folder (9)\WebQuanLyhs\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\Downloads\Web-main\Web-main\WebQuanLyhs
+build_property.MSBuildProjectDirectory = D:\New folder (9)\WebQuanLyhs
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Admin/AddAccount.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Admin/AddAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkQWNjb3VudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Admin/AddCategory.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Admin/AddCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Admin/AddCourse.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Admin/AddCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkQ291cnNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Admin/CategoryIndex.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Admin/CategoryIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Admin/CourseIndex.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Admin/CourseIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ291cnNlSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Admin/EditAcc.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Admin/EditAcc.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdEFjYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Admin/EditCategory.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Admin/EditCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdENhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Admin/EditCourse.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Admin/EditCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdENvdXJzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Admin/Index.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Coures/Create.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Coures/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cmVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Coures/Delete.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Coures/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cmVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Coures/Details.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Coures/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cmVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Coures/Edit.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Coures/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cmVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Coures/Index.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Coures/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cmVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Home/Index.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Home/Privacy.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Shared/Error.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Shared/_LayoutStaff.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Shared/_LayoutStaff.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRTdGFmZi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Shared/_LayoutStudentandTeacher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRTdHVkZW50YW5kVGVhY2hlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/New folder (9)/WebQuanLyhs/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/AddAccount.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/AddAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxBZGRBY2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/AddCategory.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/AddCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxBZGRDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/AddClassRole.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/AddClassRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxBZGRDbGFzc1JvbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/AddCourse.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/AddCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxBZGRDb3Vyc2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/AddStudent.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/AddStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxBZGRTdHVkZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/AddStudentClass.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/AddStudentClass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxBZGRTdHVkZW50Q2xhc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/AddTeacherClass.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/AddTeacherClass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxBZGRUZWFjaGVyQ2xhc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/CategoryIndex.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/CategoryIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxDYXRlZ29yeUluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/ClassRoleIndex.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/ClassRoleIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxDbGFzc1JvbGVJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/CourseIndex.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/CourseIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxDb3Vyc2VJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/EditCategory.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/EditCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxFZGl0Q2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/EditClassRole.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/EditClassRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxFZGl0Q2xhc3NSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/EditCourse.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/EditCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxFZGl0Q291cnNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/EditStudent.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/EditStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxFZGl0U3R1ZGVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/EditStudentClass.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/EditStudentClass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxFZGl0U3R1ZGVudENsYXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/EditTeacher.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/EditTeacher.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxFZGl0VGVhY2hlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/EditTeacherClass.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/EditTeacherClass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxFZGl0VGVhY2hlckNsYXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/StudentClassIndex.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/StudentClassIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxTdHVkZW50Q2xhc3NJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/StudentIndex.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/StudentIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxTdHVkZW50SW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/TeacherClassIndex.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/TeacherClassIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxUZWFjaGVyQ2xhc3NJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/StaffTrain/TeacherIndex.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/StaffTrain/TeacherIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZUcmFpblxUZWFjaGVySW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Student/AddBt.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Student/AddBt.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxBZGRCdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Student/Detailcourse.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Student/Detailcourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxjb3Vyc2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Student/Index.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Teacher/Detailcourse.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Teacher/Detailcourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxEZXRhaWxjb3Vyc2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Teacher/Exercise.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Teacher/Exercise.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxFeGVyY2lzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Teacher/ExerciseAdd.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Teacher/ExerciseAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxFeGVyY2lzZUFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Teacher/Index.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Teacher/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/User/Login.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/User/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/New folder (9)/WebQuanLyhs/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/_ViewImports.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/New folder (9)/WebQuanLyhs/Views/User/Uploadimg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGxvYWRpbWcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/New folder (9)/WebQuanLyhs/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/_ViewStart.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Downloads/Web-main/Web-main/WebQuanLyhs/Views/Shared/_Layout.cshtml]
+[D:/New folder (9)/WebQuanLyhs/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gm9ej5ikzc

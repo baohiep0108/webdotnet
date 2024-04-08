@@ -28,6 +28,11 @@ namespace WebQuanLyhs.Controllers
 
         public IActionResult TeacherIndex()
         {
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var usersWithRoles = db.Users.Include(u => u.Role).ToList();
             var admin = db.Users.Where(u => u.Role_id == 3).ToList();
             return View(admin);
@@ -35,6 +40,12 @@ namespace WebQuanLyhs.Controllers
 
         public ActionResult AddAccount()
         {
+
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var course = db.Courses.ToList();
             ViewBag.KhoaHocSVList = new SelectList(course, "Coures_id", "Coures_name");
 
@@ -86,6 +97,11 @@ namespace WebQuanLyhs.Controllers
         public IActionResult EditTeacher(int id)
         {
 
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var item = db.Users.Find(id);
             return View(item);
         }
@@ -102,14 +118,12 @@ namespace WebQuanLyhs.Controllers
             return RedirectToAction("TeacherIndex");
         }
         [HttpPost]
-        [ValidateAntiForgeryToken]
 
         public ActionResult DeleteTeacher(int id)
         {
             var item = db.Users.Find(id);
             if (item != null)
             {
-                /*var DeleteItem=db.Categories.Attach(item);*/
                 db.Users.Remove(item);
                 db.SaveChanges();
                 return Json(new { success = true });
@@ -122,6 +136,12 @@ namespace WebQuanLyhs.Controllers
         #region Student
         public IActionResult StudentIndex()
         {
+
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var usersWithRoles = db.Users.Include(u => u.Role).ToList();
             var admin = db.Users.Where(u => u.Role_id == 4).ToList();
             return View(admin);
@@ -129,6 +149,12 @@ namespace WebQuanLyhs.Controllers
 
         public ActionResult AddStudent()
         {
+
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var phanLoaiSVList = db.Roles.ToList();
             var phanLoaiSVListFiltered = phanLoaiSVList.Where(item => item.Role_id == 4).ToList();
             ViewBag.PhanLoaiSVList = new SelectList(phanLoaiSVListFiltered, "Role_id", "Role_name");
@@ -179,6 +205,12 @@ namespace WebQuanLyhs.Controllers
         }
         public IActionResult EditStudent(int id)
         {
+
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var phanLoaiSVList = db.Roles.ToList();
             var phanLoaiSVListFiltered = phanLoaiSVList.Where(item => item.Role_id == 4).ToList();
             ViewBag.PhanLoaiSVList = new SelectList(phanLoaiSVListFiltered, "Role_id", "Role_name");
@@ -196,13 +228,8 @@ namespace WebQuanLyhs.Controllers
 
             db.SaveChanges();
             return RedirectToAction("StudentIndex");
-
- 
-
         }
         [HttpPost]
-        [ValidateAntiForgeryToken]
-
         public ActionResult DeleteStudent(int id)
         {
             var item = db.Users.Find(id);
@@ -220,17 +247,27 @@ namespace WebQuanLyhs.Controllers
         #region Category_Course
         public IActionResult CategoryIndex()
         {
+
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var category = db.Category_Courses.ToList();
             return View(category);
         }
         public ActionResult AddCategory()
         {
 
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             return View();
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-
         public IActionResult AddCategory(Category_Course model)
         {
             if (ModelState.IsValid)
@@ -244,12 +281,17 @@ namespace WebQuanLyhs.Controllers
         }
         public IActionResult EditCategory(int id)
         {
+
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var item = db.Category_Courses.Find(id);
             return View(item);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-
         public IActionResult EditCategory(Category_Course model)
         {
             db.Category_Courses.Attach(model);
@@ -259,8 +301,6 @@ namespace WebQuanLyhs.Controllers
             return RedirectToAction("CategoryIndex");
         }
         [HttpPost]
-        [ValidateAntiForgeryToken]
-
         public ActionResult DeleteCategory(int id)
         {
             var item = db.Category_Courses.Find(id);
@@ -278,6 +318,12 @@ namespace WebQuanLyhs.Controllers
 
         public IActionResult CourseIndex()
         {
+
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var usersWithRoles = db.Courses.Include(u => u.Category_Course).ToList();
             var course = db.Courses.ToList();
             return View(course);
@@ -285,6 +331,11 @@ namespace WebQuanLyhs.Controllers
         public ActionResult AddCourse()
         {
 
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var phanLoaiSVList = db.Category_Courses.ToList();
             ViewBag.KhoaHocSVList = new SelectList(phanLoaiSVList, "Category_coures_id", "Category_name");
             return View();
@@ -305,6 +356,12 @@ namespace WebQuanLyhs.Controllers
         }
         public IActionResult EditCourse(int id)
         {
+
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var phanLoaiSVList = db.Category_Courses.ToList();
             ViewBag.KhoaHocSVList = new SelectList(phanLoaiSVList, "Category_coures_id", "Category_name");
             var item = db.Courses.Find(id);
@@ -322,7 +379,6 @@ namespace WebQuanLyhs.Controllers
             return RedirectToAction("CourseIndex");
         }
         [HttpPost]
-        [ValidateAntiForgeryToken]
 
         public ActionResult DeleteCourse(int id)
         {
@@ -343,11 +399,22 @@ namespace WebQuanLyhs.Controllers
         public IActionResult ClassRoleIndex()
         {
 
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var classRole = db.Class_Roles;
             return View(classRole);
         }
         public ActionResult AddClassRole()
         {
+
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             return View();
         }
         [HttpPost]
@@ -367,6 +434,11 @@ namespace WebQuanLyhs.Controllers
         public IActionResult EditClassRole(int id)
         {
 
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var item = db.Class_Roles.Find(id);
             return View(item);
         }
@@ -382,7 +454,6 @@ namespace WebQuanLyhs.Controllers
             return RedirectToAction("ClassRoleIndex");
         }
         [HttpPost]
-        [ValidateAntiForgeryToken]
 
         public ActionResult DeleteClassRole(int id)
         {
@@ -402,7 +473,12 @@ namespace WebQuanLyhs.Controllers
         public IActionResult StudentClassIndex()
         {
 
-           
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
+
             var studentclass = db.Student_Classes.
                 Include(sc => sc.Class_Role).
                 Include(sc => sc.Student_Course);
@@ -410,6 +486,12 @@ namespace WebQuanLyhs.Controllers
         }
         public ActionResult AddStudentClass()
         {
+
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var sv = db.Class_Roles.ToList();
             ViewBag.KhoaHocSVList = new SelectList(sv, "Class_Role_id", "Name");
             var st = db.Student_Courses.ToList();
@@ -432,6 +514,12 @@ namespace WebQuanLyhs.Controllers
         }
         public IActionResult EditStudentClass(int id)
         {
+
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var sv = db.Class_Roles.ToList();
             ViewBag.KhoaHocSVList = new SelectList(sv, "Class_Role_id", "Name");
             var st = db.Student_Courses.ToList();
@@ -456,7 +544,11 @@ namespace WebQuanLyhs.Controllers
         public IActionResult TeacherClassIndex()
         {
 
-            
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var teacherclass = db.Teacher_Classes.
                 Include(sc => sc.Class_Role).
                 Include(sc => sc.Teacher_Course);
@@ -464,6 +556,12 @@ namespace WebQuanLyhs.Controllers
         }
         public ActionResult AddTeacherClass()
         {
+
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var sv = db.Class_Roles.ToList();
             ViewBag.KhoaHocSVList = new SelectList(sv, "Class_Role_id", "Name");
             var st = db.Teacher_Courses.ToList();
@@ -486,6 +584,11 @@ namespace WebQuanLyhs.Controllers
         }
         public IActionResult EditTeacherClass(int id)
         {
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 2)
+            {
+                return Redirect("/User/Login");
+            }
             var sv = db.Class_Roles.ToList();
             ViewBag.KhoaHocSVList = new SelectList(sv, "Class_Role_id", "Name");
             var st = db.Teacher_Courses.ToList();
@@ -494,8 +597,7 @@ namespace WebQuanLyhs.Controllers
             return View(item);
         }
         [HttpPost]
-                [ValidateAntiForgeryToken]
-
+        [ValidateAntiForgeryToken]
         public IActionResult EditTeacherClass(Teacher_Class model)
         {
             db.Teacher_Classes.Attach(model);
@@ -503,6 +605,20 @@ namespace WebQuanLyhs.Controllers
 
             db.SaveChanges();
             return RedirectToAction("TeacherClassIndex");
+        }
+        [HttpPost]
+
+        public ActionResult DeleteTeacherClass(int id)
+        {
+            var item = db.Teacher_Classes.Find(id);
+            if (item != null)
+            {
+                /*var DeleteItem=db.Categories.Attach(item);*/
+                db.Teacher_Classes.Remove(item);
+                db.SaveChanges();
+                return Json(new { success = true });
+            }
+            return Json(new { success = false });
         }
         #endregion
 

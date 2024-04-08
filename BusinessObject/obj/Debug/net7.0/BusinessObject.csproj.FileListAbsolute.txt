@@ -28,3 +28,18 @@ C:\Users\Admin\Downloads\Web-main\Web-main\BusinessObject\obj\Debug\net7.0\Busin
 C:\Users\Admin\Downloads\Web-main\Web-main\BusinessObject\obj\Debug\net7.0\BusinessObject.genruntimeconfig.cache
 C:\Users\Admin\Downloads\Web-main\Web-main\BusinessObject\obj\Debug\net7.0\ref\BusinessObject.dll
 C:\Users\Admin\Downloads\Web-main\Web-main\BusinessObject\obj\Debug\net7.0\BusinessObject.sourcelink.json
+D:\New folder (9)\BusinessObject\bin\Debug\net7.0\BusinessObject.deps.json
+D:\New folder (9)\BusinessObject\bin\Debug\net7.0\BusinessObject.runtimeconfig.json
+D:\New folder (9)\BusinessObject\bin\Debug\net7.0\BusinessObject.dll
+D:\New folder (9)\BusinessObject\bin\Debug\net7.0\BusinessObject.pdb
+D:\New folder (9)\BusinessObject\obj\Debug\net7.0\BusinessObject.csproj.AssemblyReference.cache
+D:\New folder (9)\BusinessObject\obj\Debug\net7.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder (9)\BusinessObject\obj\Debug\net7.0\BusinessObject.AssemblyInfoInputs.cache
+D:\New folder (9)\BusinessObject\obj\Debug\net7.0\BusinessObject.AssemblyInfo.cs
+D:\New folder (9)\BusinessObject\obj\Debug\net7.0\BusinessObject.csproj.CoreCompileInputs.cache
+D:\New folder (9)\BusinessObject\obj\Debug\net7.0\BusinessObject.sourcelink.json
+D:\New folder (9)\BusinessObject\obj\Debug\net7.0\BusinessObject.dll
+D:\New folder (9)\BusinessObject\obj\Debug\net7.0\refint\BusinessObject.dll
+D:\New folder (9)\BusinessObject\obj\Debug\net7.0\BusinessObject.pdb
+D:\New folder (9)\BusinessObject\obj\Debug\net7.0\BusinessObject.genruntimeconfig.cache
+D:\New folder (9)\BusinessObject\obj\Debug\net7.0\ref\BusinessObject.dll

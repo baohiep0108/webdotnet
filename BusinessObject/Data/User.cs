@@ -12,7 +12,6 @@ namespace BusinessObject.Data
 		public string Email { get; set; }
 		public string Password { get; set; }
 		public string? Phone { get; set; }
-		[StringLength(10)]
 		public string? Fullname { get; set; }
 		public string? Detail { get; set; }
 		public string? Sex_name { get; set; }

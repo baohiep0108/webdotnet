@@ -20,6 +20,11 @@ namespace WebQuanLyhs.Controllers
         }
         public async Task<IActionResult> Index()
         {
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 3)
+            {
+                return Redirect("/User/Login");
+            }
             try
             {
                 int? id = HttpContext.Session.GetInt32("ID");
@@ -45,6 +50,11 @@ namespace WebQuanLyhs.Controllers
         }
         public ActionResult Detailcourse(int id)
         {
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 3)
+            {
+                return Redirect("/User/Login");
+            }
             DetailTeacher user = null;
             try
             {
@@ -84,6 +94,11 @@ namespace WebQuanLyhs.Controllers
         }
         public ActionResult ExerciseAdd()
         {
+            int? roleId = HttpContext.Session.GetInt32("Role");
+            if (roleId == null || roleId != 3)
+            {
+                return Redirect("/User/Login");
+            }
             int? id = HttpContext.Session.GetInt32("ID");
             if (id == 0)
             {
@@ -143,8 +158,7 @@ namespace WebQuanLyhs.Controllers
 
             exsercise.Exercise_name = model.Exercise_name;
             exsercise.Creat_time = DateTime.Now;
-            exsercise.Creat_time = DateTime.Now;
-            exsercise.Creat_time = DateTime.Now;
+          
 
             db.Entry(exsercise).State = EntityState.Modified;
             db.SaveChanges();
