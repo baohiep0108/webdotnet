@@ -28,7 +28,21 @@
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                        <li><a asp-action="Index" class="nav-link px-2 link-dark">Home</a></li>
+                        <li>
+                            <a asp-action="Index" class="nav-link px-2 link-dark">
+                                <img src="~/Hinh/Logo/logo-removebg-preview.png" class="bi me-2" width="40" height="32" alt="FPT Logon" />
+                                <span class="fs-4">
+                                    FPT School
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-action="Index" class="nav-link px-2 link-dark">Home</a>
+                        </li>
+                        <li>
+                            <a asp-action="DetailCourse" class="nav-link px-2 link-dark">Detail</a>
+                        </li>
+                        
                     </ul>
 
                     <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
@@ -109,6 +123,7 @@
             img.src = "/Hinh/Logo/" + randomBackground;
         });
     </script>
+
     <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>

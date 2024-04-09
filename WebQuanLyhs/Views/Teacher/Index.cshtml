@@ -52,7 +52,7 @@
         <div class="card-body">
             <h5 class="card-title"> @Html.DisplayFor(modelItem => item.Class_Role.Name)</h5>
             <p class="card-text">Teacher teaching: @Html.DisplayFor(modelItem => item.Teacher_Course.Fullname)</p>
-            <a asp-action="Detailcourse" asp-route-id="@item.Teacher_Course_id" class="btn btn-primary details-button" style="position: absolute; bottom: 10px; right: 10px;">Details</a>
+            <a asp-action="Detailcourse" asp-route-id="@item.Teacher_Course_id" class="btn btn-primary details-button" >Details</a>
         </div>
     </div>
 }

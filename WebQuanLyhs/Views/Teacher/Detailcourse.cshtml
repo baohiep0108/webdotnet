@@ -3,28 +3,24 @@
 @{
     ViewData["Title"] = "Detailcourse";
 }
-
-<h1>Detailcourse</h1>
-
-<div>
-    <h4>Course</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
+@{
+    Layout = "_LayoutStudentandTeacher";
+}
+<div class="row">
+   <div class="col-6">
+   
+        <div class="col-sm-2">
             @Html.DisplayNameFor(model => model.Teacher_Course.Course.Coures_name)
-        </dt>
-        <dd class="col-sm-10">
+        </div>
+        <div class="col-sm-10">
             @Html.DisplayFor(model => model.Teacher_Course.Course.Coures_name)
-        </dd>
-      
+        </div>
       <buton>
             <a asp-action="Exercise">Bai tap</a>
       </buton>
-
-
-    </dl>
-
 </div>
-<div>
-    <a asp-action="">Back to List</a>
+    <div>
+        <a class="btn btn-danger" asp-action="Index">Back to List</a>
+    </div>
 </div>
+
