@@ -7,7 +7,7 @@
     Layout = "_LayoutStudentandTeacher";
 }
  @section Sidebar {
-                <div class="row col-md-12">
+                <div class="row col-md-12 m-3">
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -45,33 +45,20 @@
 
                 </div>
             }
-            
-   
-<table class="table">
-    <thead thead class="thead-dark">
-        <tr>
-            <th scope="col">
-                @Html.DisplayNameFor(model => model.Class_Role)
-            </th scope="col">
-            <th>
-                @Html.DisplayNameFor(model => model.Teacher_Course)
-            </th scope="col">
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Class_Role.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Teacher_Course.Fullname)
-            </td>
-            <td>
-                <a asp-action="Detailcourse" asp-route-id="@item.Teacher_Course_id">Details</a> 
-            </td>
-        </tr>
+@foreach (var item in Model)
+{
+    <div class="card m-2" style="width: 18rem; position: relative;">
+        <img class="card-img-top bg-image" src="" alt="Card image cap"> <!-- Loại bỏ id, thay vào đó sử dụng class để có thể chọn tất cả các ảnh -->
+        <div class="card-body">
+            <h5 class="card-title"> @Html.DisplayFor(modelItem => item.Class_Role.Name)</h5>
+            <p class="card-text">Teacher teaching: @Html.DisplayFor(modelItem => item.Teacher_Course.Fullname)</p>
+            <a asp-action="Detailcourse" asp-route-id="@item.Teacher_Course_id" class="btn btn-primary details-button" style="position: absolute; bottom: 10px; right: 10px;">Details</a>
+        </div>
+    </div>
 }
-    </tbody>
-</table>
+
+
+   
+
+
+
