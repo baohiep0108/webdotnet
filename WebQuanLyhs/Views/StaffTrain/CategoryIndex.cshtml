@@ -39,6 +39,7 @@
             <td>
                      <a class="btn btn-sm btn-warning" asp-action="EditCategory" asp-route-id="@item.Category_coures_id">Edit</a> |
                     <a href="#" data-id="@item.Category_coures_id" class="btn btn-sm btn-danger btnDelete"> Delete</a>
+
             </td>
         </tr>
 }
@@ -54,7 +55,7 @@
         $(document).ready(function () {
             $('body').on('click', '.btnDelete', function () {
                 var id = $(this).data("id");
-                var conf = confirm('You Delete Category_Course ?');
+                var conf = confirm('You Delete Category Course ?');
 
                 if (conf === true) {
 

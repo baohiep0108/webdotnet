@@ -13,8 +13,8 @@ namespace WebQuanLyhs.Controllers
 {
     public class StaffTrainController : Controller
     {
-
-        private readonly ConnectDB db;
+		
+		private readonly ConnectDB db;
         private readonly IMapper _mapper;
 
         public StaffTrainController(ConnectDB context, IMapper mapper)
@@ -80,7 +80,7 @@ namespace WebQuanLyhs.Controllers
                     Teacher_Coures_id = users.User_id,
                     Teaching_major = user.Major,
                     Fullname = user.Fullname,
-                    Course_id = course.Coures_id 
+                    Course_id = course.Coures_id
 
                     // Gán các thuộc tính của UserDetail tương ứng từ model
                 };
@@ -596,6 +596,7 @@ namespace WebQuanLyhs.Controllers
             var item = db.Teacher_Classes.Find(id);
             return View(item);
         }
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult EditTeacherClass(Teacher_Class model)
@@ -607,7 +608,7 @@ namespace WebQuanLyhs.Controllers
             return RedirectToAction("TeacherClassIndex");
         }
         [HttpPost]
-
+        
         public ActionResult DeleteTeacherClass(int id)
         {
             var item = db.Teacher_Classes.Find(id);
@@ -621,8 +622,14 @@ namespace WebQuanLyhs.Controllers
             return Json(new { success = false });
         }
         #endregion
+        public IActionResult GetStudent()
+        {
+            var classesWithStudents = db.Class_Roles
+           .Include(cr => cr.Student_Classes)
+           .ThenInclude(sc => sc.Student_Course_id)
+           .ToList();
 
+            return View(classesWithStudents);
+        }
     }
 }
-
-

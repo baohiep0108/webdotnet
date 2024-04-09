@@ -7,31 +7,39 @@
     Layout = "_LayoutStaff";
 }
 
-
-<h1>AddTeacherClass</h1>
-
-<h4>Teacher_Class</h4>
-<hr />
+<h4 class="fw-bold py-3 mb-4">
+    <span class="text-muted fw-light"> Class /</span> Add Teacher Class
+</h4>
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-xxl">
+        <div class="card mb-4">
+            <div class="card-body">
         <form asp-action="AddTeacherClass">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Class_Role_id" class="control-label"></label>
-                <select asp-for="Class_Role_id" class="form-control" asp-items="ViewBag.KhoaHocSVList"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="Teacher_Course_id" class="control-label"></label>
-                <select asp-for="Teacher_Course_id" class="form-control" asp-items="ViewBag.Teacher_Coures_id"></select>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
+                    <div class="row mb-3 form-group">
+                        <label class="col-sm-2 col-form-label control-label" asp-for="Class_Role_id"></label>
+                        <div class="col-sm-10">
+                            <select asp-for="Class_Role_id" class="form-control phone-mask" asp-items="ViewBag.KhoaHocSVList"></select>
+                        </div>
+                    </div>
+                    <div class="row mb-3 form-group">
+                        <label class="col-sm-2 col-form-label control-label" asp-for="Teacher_Course_id"></label>
+                        <div class="col-sm-10">
+                            <select asp-for="Teacher_Course_id" class="form-control phone-mask" asp-items="ViewBag.Teacher_Coures_id"></select>
+                        </div>
+                    </div>
+          
+                    <div style="margin-top:10px" class="row form-group">
+                        <div class="col-sm-10">
+                            <input type="submit" value="Create" class="btn btn-outline-success" />
+                        </div>
+                    </div>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="ClassRoleIndex">Back to List</a>
+</div>
+</div>
+<div class="d-flex justify-content-end">
+    <a class="btn btn-danger ml-auto" asp-action="CourseIndex">Back to List</a>
 </div>
 

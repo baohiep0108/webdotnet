@@ -8,21 +8,20 @@
 }
 
 
-<h1>StudentClassIndex</h1>
-
-<p>
-    <a asp-action="AddStudentClass">Create New</a>
-</p>
-
-<table class="table">
+<h4 class="fw-bold py-3 mb-4">
+    <span class="text-muted fw-light"> Class /</span> Classroom division Student
+</h4>
+<div class="clearfix mb-3">
+    <a class="btn btn-success float-end" style="color: white;" asp-action="AddStudentClass">Create Account</a>
+</div>
+<div class="row">
+    <div class="card">
+        <div class="table-responsive text-nowrap">
+<table class="table table-striped">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Class_Role)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Student_Course)
-            </th>
+            <th> Class</th>
+            <th> Student</th>
             <th></th>
         </tr>
     </thead>
@@ -36,11 +35,13 @@
                     @Html.DisplayFor(modelItem => item.Student_Course.Fullname)
                 </td>
             <td>
-                    <a asp-action="EditStudentClass" asp-route-id="@item.Student_Class_id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Student_Class_id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Student_Class_id">Delete</a>
+                <a class="btn-sm btn btn btn-warning" asp-action="EditStudentClass" asp-route-id="@item.Student_Class_id">Edit</a> |
+                <a class="btn-sm btn btn-danger" asp-action="Delete" asp-route-id="@item.Student_Class_id">Delete</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+</div>
+</div>
+</div>

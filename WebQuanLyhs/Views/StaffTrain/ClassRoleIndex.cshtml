@@ -33,7 +33,9 @@
             </td>
             <td>
                 <a class="btn btn-sm btn-warning" asp-action="EditClassRole" asp-route-id="@item.Class_Role_id">Edit</a> |
-                <a class="btn btn-sm  btn-danger" asp-action="Delete" asp-route-id="@item.Class_Role_id">Delete</a>
+                 <a href="#" data-id="@item.Class_Role_id" class="btn btn-sm btn-danger btnDelete"> Delete</a>
+
+               
             </td>
         </tr>
 }
@@ -43,10 +45,37 @@
 </div>
 </div>
 
-<h4 class="fw-bold py-3 mb-6">Class option:</h4>
 
-<div class="d-flex ">
-    <a class="btn btn-success  ml-auto" asp-action="StudentClassIndex">Student</a>
-    <a class="btn btn-success  ml-auto" asp-action="TeacherClassIndex">Teacher</a>
+
+<div class="d-flex my-5 ">
+    <p class="fw-bold mb-6"></">Classroom division:</p>
+    <a class="btn btn-success  mx-2" asp-action="StudentClassIndex">Student</a>
+    <a class="btn btn-success  mx-2" asp-action="TeacherClassIndex">Teacher</a>
 </div>
 
+@section scripts {
+    <script>
+
+        $(document).ready(function () {
+            $('body').on('click', '.btnDelete', function () {
+                var id = $(this).data("id");
+                var conf = confirm('You Delete Course ?');
+
+                if (conf === true) {
+                    $.ajax({
+                        url: '/StaffTrain/DeleteClassRole',
+                        type: 'POST',
+                        data: { id: id },
+                        success: function (rs) {
+                            if (rs.success) {
+                                $('#trow_' + id).remove();
+                                location.reload();
+                            }
+                        }
+                    });
+                }
+            });
+        });
+
+    </script>
+}

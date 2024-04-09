@@ -8,11 +8,15 @@
 }
 
 
-<h1>TeacherClassIndex</h1>
-
-<p>
-    <a asp-action="AddTeacherClass">Create New</a>
-</p>
+<h4 class="fw-bold py-3 mb-4">
+    <span class="text-muted fw-light"> Class /</span> Classroom division Teacher
+</h4>
+<div class="clearfix mb-3">
+    <a class="btn btn-success float-end" style="color: white;" asp-action="AddTeacherClass">Create New</a>
+</div>
+<div class="row">
+    <div class="card">
+        <div class="table-responsive text-nowrap">
 <table class="table">
     <thead>
         <tr>
@@ -35,17 +39,19 @@
                 @Html.DisplayFor(modelItem => item.Teacher_Course.Fullname)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Study_Class_id">Edit</a> |
+                <a class="btn btn-sm btn-warning " asp-action="Edit" asp-route-id="@item.Study_Class_id">Edit</a> |
 
-                    <a href="#" data-id="@item.Study_Class_id" class="btn btn-sm btn-danger btnDelete"> Delete</a>
+                <a href="#" data-id="@item.Study_Class_id" class="btn btn-sm btn-danger btnDelete"> Delete</a>
                 </td>
         </tr>
 }
     </tbody>
 </table>
+</div>
+</div>
+</div>
 @section scripts {
     <script>
-
 
         $(document).ready(function () {
             $('body').on('click', '.btnDelete', function () {

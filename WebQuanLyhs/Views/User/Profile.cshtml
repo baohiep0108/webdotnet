@@ -1,5 +1,7 @@
 ﻿@model BusinessObject.Data.User
-
+@{
+	Layout = null;
+}
 <!DOCTYPE html>
 <html>
 <head>
@@ -45,7 +47,7 @@
 										<span aria-hidden="true">&times;</span>
 									</button>
 								</div>
-								@* <form id="uploadForm" asp-action="Uploadimg" enctype="multipart/form-data">
+							 <form id="uploadForm" asp-action="Uploadimg" enctype="multipart/form-data">
 									<!-- Form upload ảnh -->
 									<div class="modal-body">
 										<div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -60,7 +62,7 @@
 										<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
 										<button type="submit" class="btn btn-primary">Upload</button> <!-- Thêm nút Upload -->
 									</div>
-								</form> *@
+								</form> 
 							</div>
 						</div>
 					</div>

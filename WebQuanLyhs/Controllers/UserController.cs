@@ -152,7 +152,7 @@ namespace WebQuanLyhs.Controllers
             // Chuyển hướng đến trang Profile
             return RedirectToAction("Profile");
         }
-        public IActionResult Uploadimg()
+      /*  public IActionResult Uploadimg()
         {
             int? roleId = HttpContext.Session.GetInt32("Role");
             if (roleId == null )
@@ -160,7 +160,7 @@ namespace WebQuanLyhs.Controllers
                 return Redirect("/User/Login");
             }
             return View();
-        }
+        }*/
         [HttpPost]
         public IActionResult Uploadimg(Upload model ,int id )
         {
