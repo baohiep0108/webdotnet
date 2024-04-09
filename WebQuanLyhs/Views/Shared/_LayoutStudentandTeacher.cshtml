@@ -19,7 +19,28 @@
         .card-wrapper {
             display: flex;
             flex-wrap: wrap; 
+
         }
+        .list-group-item {
+            display: flex;
+            align-items: center;
+        }
+            .list-group-item span {
+                flex-grow: 1;
+            }
+        .button-group {
+            display: flex;
+            align-items: center;
+        }
+
+        .button-group a {
+                margin-left: 10px;
+        }
+        .bg-09{
+            width:auto; height:500px; background-color:#EEE9E9; border-radius:20px; display: flex; align-items: center; justify-content: center"
+        }
+
+
     </style>
 </head>
 <body>
@@ -38,9 +59,6 @@
                         </li>
                         <li>
                             <a asp-action="Index" class="nav-link px-2 link-dark">Home</a>
-                        </li>
-                        <li>
-                            <a asp-action="DetailCourse" class="nav-link px-2 link-dark">Detail</a>
                         </li>
                         
                     </ul>

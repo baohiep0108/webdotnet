@@ -6,21 +6,29 @@
 @{
     Layout = "_LayoutStudentandTeacher";
 }
-<div class="row">
-   <div class="col-6">
-   
-        <div class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Teacher_Course.Course.Coures_name)
-        </div>
-        <div class="col-sm-10">
-            @Html.DisplayFor(model => model.Teacher_Course.Course.Coures_name)
-        </div>
-      <buton>
-            <a asp-action="Exercise">Bai tap</a>
-      </buton>
-</div>
-    <div>
-        <a class="btn btn-danger" asp-action="Index">Back to List</a>
+
+<div class="card-body">
+    <div class="background-content">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="col-sm-6">Course name</th>
+                    <th class="col-sm-6">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        @Html.DisplayFor(model => model.Teacher_Course.Course.Coures_name)
+                    </td>
+                    <td>
+                        <a class="btn btn-primary" asp-action="Exercise">Exercise</a>
+                        <a class="btn btn-danger" asp-action="Index">Back to List</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </div>
+
 

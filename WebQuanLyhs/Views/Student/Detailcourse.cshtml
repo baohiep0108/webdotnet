@@ -6,58 +6,54 @@
 @{
 	Layout = "_LayoutStudentandTeacher";
 }
-<h1>Detailcourse</h1>
-
-<div>
-	<h4>Course</h4>
-	<hr />
-	<dl class="row">
-		<dt class="col-sm-2">
-			@Html.DisplayNameFor(model => model.Teacher_Class.Teacher_Course.Course.Coures_name)
-		</dt>
-		<dd class="col-sm-10">
-			@Html.DisplayFor(model => model.Teacher_Class.Teacher_Course.Course.Coures_name)
-		</dd>
-		<dt class="col-sm-2">
-			Bài tập
-		</dt>
-		<dd class="col-sm-10">
-			<ul>
-				@if (Model.Teacher_Class.Teacher_Course.Course.Exercises != null)
-				{
-					@foreach (var exercise in Model.Teacher_Class.Teacher_Course.Course.Exercises)
-					{
-						<li>
-							@exercise.File_name
-							@if (!string.IsNullOrEmpty(exercise.File_name))
-							{
-								<a href="~/Hinh/Exercise/@exercise.File_name" class="btn btn-primary" download>Tải File</a>
-							}
-						</li>
-						@if (!string.IsNullOrEmpty(exercise.Link_submit_assignments))
-						{
-							<li>
-								<a asp-action="AddBt" asp-route-id="@exercise.Exercise_id">Link_submit_assignments  </a>
-								@exercise.Link_submit_assignments
-							</li>
-						}
-						else
-						{
-							<li>
-								<a asp-action="AddBt" asp-route-id="@exercise.Exercise_id">Link_submit_assignments  </a>
-								@exercise.Link_submit_assignments
-							</li>
-						}
-
-					}
-				}
-			</ul>
-		</dd>
 
 
-	</dl>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Course</th>
+            <th scope="col">Exercise</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="margin-top: 10px;display: flex;align-items: center;font-size: 16px;">
+                @Html.DisplayFor(model => model.Teacher_Class.Teacher_Course.Course.Coures_name)
+            </td>
+            <td>
+                <ul class="list-group">
+                    @if (Model.Teacher_Class.Teacher_Course.Course.Exercises != null)
+                    {
+                        @foreach (var exercise in Model.Teacher_Class.Teacher_Course.Course.Exercises)
+                        {
+                            <li class="list-group-item">
+                                <span>@exercise.File_name</span>
+                                <div class="button-group">
+                                    @if (!string.IsNullOrEmpty(exercise.File_name))
+                                    {
+                                        <a href="~/Hinh/Exercise/@exercise.File_name" class="btn btn-primary" download>Download</a>
+                                    }
+                                    @if (!string.IsNullOrEmpty(exercise.Link_submit_assignments))
+                                    {
+                                        <a class="btn btn-success" asp-action="AddBt" asp-route-id="@exercise.Exercise_id">Submit assignments</a>
+                                    }
+                                    else
+                                    {
+                                        <a class="btn btn-success" asp-action="AddBt" asp-route-id="@exercise.Exercise_id">Submit</a>
+                                    }
+                                </div>
+                            </li>
+                        }
+                    }
+                </ul>
+            </td>
 
-</div>
-<div>
-	<a asp-action="Index">Back to List</a>
-</div>
+        </tr>
+    </tbody>
+</table>
+    
+    <div>
+        <a class="btn btn-sm btn-danger" asp-action="Index">Back to List</a>
+    </div>
+
+

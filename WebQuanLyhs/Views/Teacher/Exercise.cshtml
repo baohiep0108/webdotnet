@@ -7,11 +7,13 @@
     Layout = "_LayoutStudentandTeacher";
 }
 
-<h1>Exercise</h1>
 
-<p>
-    <a asp-action="ExerciseAdd">Create New</a>
-</p>
+
+<div class="card-body">
+    <div class="background-content">
+        <div class="clearfix mb-3">
+            <a class="btn btn-success float-end" style="color: white;" asp-action="ExerciseAdd">Create New</a>
+        </div>
 <table class="table">
     <thead>
         <tr>
@@ -24,9 +26,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.File_name)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Link_submit_assignments)
-            </th>
+         
             <th>
                 @Html.DisplayNameFor(model => model.Course)
             </th>
@@ -46,17 +46,14 @@
             <td>
                 @Html.DisplayFor(modelItem => item.File_name)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Link_submit_assignments)
-            </td>
+            
                 <td>
                     @Html.DisplayFor(modelItem => item.Course.Coures_name)
                 </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Exercise_id">Edit</a> |
-                <a asp-action="Delete" asp-route-id="@item.Exercise_id">Delete</a>
-            </td>
+      
         </tr>
 }
     </tbody>
 </table>
+</div>
+</div>
