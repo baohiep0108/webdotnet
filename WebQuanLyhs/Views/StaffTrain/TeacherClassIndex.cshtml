@@ -39,7 +39,7 @@
                 @Html.DisplayFor(modelItem => item.Teacher_Course.Fullname)
             </td>
             <td>
-                <a class="btn btn-sm btn-warning " asp-action="Edit" asp-route-id="@item.Study_Class_id">Edit</a> |
+                 <a class="btn btn-sm btn-warning " asp-action="EditTeacherClass" asp-route-id="@item.Study_Class_id">Edit</a> |
 
                 <a href="#" data-id="@item.Study_Class_id" class="btn btn-sm btn-danger btnDelete"> Delete</a>
                 </td>

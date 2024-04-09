@@ -47,7 +47,7 @@
             }
 @foreach (var item in Model)
 {
-    <div class="card m-2" style="width: 18rem; position: relative;">
+    <div style="height:350px" class="card m-2" style="width: 18rem; position: relative;">
         <img class="card-img-top bg-image" src="" alt="Card image cap"> <!-- Loại bỏ id, thay vào đó sử dụng class để có thể chọn tất cả các ảnh -->
         <div class="card-body">
             <h5 class="card-title"> @Html.DisplayFor(modelItem => item.Class_Role.Name)</h5>

@@ -8,33 +8,46 @@
 }
 
 
-<h1>EditTeacherClass</h1>
 
-<h4>Teacher_Class</h4>
-<hr />
+<h4 class="fw-bold py-3 mb-4">
+    <span class="text-muted fw-light"> Class /</span> Edit Teacher Class
+</h4>
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-xxl">
+        <div class="card mb-4">
+            <div class="card-body">
         <form asp-action="EditTeacherClass">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Study_Class_id" />
-            <div class="form-group">
-                <label asp-for="Class_Role_id" class="control-label"></label>
-                <select asp-for="Class_Role_id" class="form-control" asp-items="ViewBag.KhoaHocSVList"></select>
-                <span asp-validation-for="Class_Role_id" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Teacher_Course_id" class="control-label"></label>
-                <select asp-for="Teacher_Course_id" class="form-control" asp-items="ViewBag.Teacher_Course_id"></select>
-                <span asp-validation-for="Teacher_Course_id" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
+
+                    <div class="row mb-3 form-group">
+                        <label class="col-sm-2 col-form-label control-label" asp-for="Class_Role_id"></label>
+                        <div class="col-sm-10">
+                            <select asp-for="Class_Role_id" class="form-control phone-mask" asp-items="ViewBag.KhoaHocSVList"></select>
+                        </div>
+                        <span asp-validation-for="Class_Role_id" class="text-danger"></span>
+                    </div>
+
+                    <div class="row mb-3 form-group">
+                        <label class="col-sm-2 col-form-label control-label" asp-for="Teacher_Course_id"></label>
+                        <div class="col-sm-10">
+                            <select asp-for="Teacher_Course_id" class="form-control phone-mask" asp-items="ViewBag.KhoaHocSVList"></select>
+                        </div>
+                        <span asp-validation-for="Teacher_Course_id" class="text-danger"></span>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-sm-10">
+                            <input type="submit" value="Save" class="btn btn-outline-success" />
+                        </div>
+                    </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="ClassRoleIndex">Back to List</a>
+</div>
 </div>
 
+<div class="d-flex justify-content-end">
+    <a class="btn btn-danger ml-auto" asp-action="ClassRoleIndex">Back to List</a>
+</div>
