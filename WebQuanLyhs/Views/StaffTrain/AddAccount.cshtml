@@ -30,11 +30,11 @@
                     <div class="row mb-3 form-group">
                         <label class="col-sm-2 col-form-label control-label" asp-for="Password"></label>
                         <div class="col-sm-10">
-                            <input asp-for="Password" class="form-control phone-mask" placeholder="Input your password">
+                            <input asp-for="Password" class="form-control phone-mask" type="password" placeholder="Input your password">
                         </div>
                         <span asp-validation-for="Password" class="text-danger"></span>
                     </div>
-
+                    
                     <div class="row mb-3 form-group">
                         <label class="col-sm-2 col-form-label control-label" asp-for="Fullname"></label>
                         <div class="col-sm-10">
@@ -50,7 +50,7 @@
                         <span asp-validation-for="Major" class="text-danger"></span>
                     </div>
                     <div class="row mb-3 form-group">
-                        <label class="col-sm-2 col-form-label control-label" asp-for="Coures_id"></label>
+                        <label class="col-sm-2 col-form-label control-label" asp-for="Coures_id">Coures</label>
                         <div class="col-sm-10">
                             <select asp-for="Coures_id" class="form-control phone-mask" asp-items="ViewBag.KhoaHocSVList"></select>
                         </div>

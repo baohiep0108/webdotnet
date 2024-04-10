@@ -218,12 +218,13 @@
                 { keyword: "StudentClassIndex", dataI18n: "Class" },
                 { keyword: "TeacherClassIndex", dataI18n: "Class" },
                 { keyword: "AddTeacherClass", dataI18n: "Class" },
+                { keyword: "AddStudentClass", dataI18n: "Class" },
             ];
 
             var menuItems = document.querySelectorAll('.menu-item');
             menuItems.forEach(function (item) {
                 var menuItemUrl = item.querySelector('a').getAttribute('href');
-                var found = conditions.some(function (condition) {
+                var found = kh.some(function (condition) {
                     return url.includes(condition.keyword) && item.querySelector('[data-i18n="' + condition.dataI18n + '"]');
                 });
 

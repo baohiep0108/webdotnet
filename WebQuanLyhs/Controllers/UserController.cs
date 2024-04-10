@@ -149,7 +149,7 @@ namespace WebQuanLyhs.Controllers
 
             db.SaveChanges();
 
-            // Chuyển hướng đến trang Profile
+            
             return RedirectToAction("Profile");
         }
       /*  public IActionResult Uploadimg()
@@ -162,10 +162,10 @@ namespace WebQuanLyhs.Controllers
             return View();
         }*/
         [HttpPost]
-        public IActionResult Uploadimg(Upload model ,int id )
+        public IActionResult Uploadimg(Upload model ,int User_id)
         {
 
-            var user = db.Users.FirstOrDefault(u => u.User_id == id);
+            var user = db.Users.FirstOrDefault(u => u.User_id == User_id);
 
             if (user != null)
             {
