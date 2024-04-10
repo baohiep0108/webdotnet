@@ -1,4 +1,5 @@
 ﻿@model BusinessObject.Data.User
+
 @{
 	Layout = null;
 }
@@ -27,14 +28,14 @@
 
 						<div class="card-body text-center">
 							<!-- Profile picture image-->
-							<img style="max-width:70%;max-height:70%" class="img-account-profile rounded-circle mb-2" src="~/Hinh/Filenopbt/@Model.Avata" alt="">
+							<img style="max-width:230px;max-height:230px" class="img-account-profile rounded-circle mb-2" src="~/Hinh/Filenopbt/@Model.Avata" alt="">
 
 						</div>
 					}
 					else
 					{
 						<div class="card-body text-center">
-							<img style="max-width:70%;max-height:70%" class="img-account-profile rounded-circle mb-2" src="~/Hinh/Logo/user.jpg" alt="img"  />
+							<img style="max-width:230px;max-height:230px" class="img-account-profile rounded-circle mb-2" src="~/Hinh/Logo/user.jpg" alt="img"  />
 						</div>
 
 					}
@@ -154,29 +155,18 @@
 	</div>
 	
 	@section scripts {
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script>
 			$(document).ready(function () {
-				// Lắng nghe sự kiện click trên nút Upload
 				$('body').on('click', '.btnUpload', function () {
-					// Lấy id của người dùng
 					var id = $(this).data("id");
-
-					// Hiển thị modal
 					$('#uploadModal').modal('show');
-
-					// Truyền id của người dùng vào input hidden trong modal
 					$('#User_id').val(id);
 				});
 
-				// Xử lý khi người dùng gửi form
 				$('#uploadForm').submit(function (event) {
-					// Ngăn chặn hành động mặc định của form
 					event.preventDefault();
-
-					// Tạo formData từ form
-					var formData = new FormData(this);
-
-					// Thực hiện ajax để upload ảnh
+					var formData = new FormData($(this)[0]);
 					$.ajax({
 						url: '/User/Uploadimg',
 						type: 'POST',
@@ -185,10 +175,7 @@
 						contentType: false,
 						success: function (response) {
 							if (response.success) {
-								// Đóng modal
 								$('#uploadModal').modal('hide');
-
-								// Tải lại trang
 								location.reload();
 							}
 						}
@@ -197,6 +184,7 @@
 			});
 		</script>
 	}
+	
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -63,7 +63,7 @@ namespace WebQuanLyhs.Controllers
                 HttpContext.Session.SetString("Avata", user.Avata);
             }
 
-
+            
             if (user.Role_id == 1)
             {
                 return RedirectToAction("Index", "Admin");

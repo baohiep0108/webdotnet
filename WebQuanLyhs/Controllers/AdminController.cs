@@ -31,7 +31,6 @@ namespace WebQuanLyhs.Controllers
             }
             var usersWithRoles = db.Users.Include(u => u.Role).ToList();
             var admin = db.Users;
-            
             return View(admin);
         }
         public ActionResult AddAccount()
@@ -54,13 +53,14 @@ namespace WebQuanLyhs.Controllers
             {
                
                  var admin = _mapper.Map<User>(model);
-                 db.Add(admin);
+                db.Add(admin);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
             return View();
 
         }
+		
         public IActionResult EditAcc(int id)
         {
             int? roleId = HttpContext.Session.GetInt32("Role");
@@ -73,24 +73,23 @@ namespace WebQuanLyhs.Controllers
             ViewBag.PhanLoaiSVList = new SelectList(phanLoaiSVList, "Role_id", "Role_name");
             return View(item);
         }
-        [HttpPost]
-        [ValidateAntiForgeryToken]
 
-        public IActionResult EditAcc(User model)
-        {
-            var user = db.Users.FirstOrDefault(u => u.User_id == model.User_id);
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public IActionResult EditAcc(User model)
+		{
+			var existingUser = db.Users.FirstOrDefault(u => u.User_id == model.User_id);
+			if (existingUser == null)
+			{
+				return NotFound();
+			}
+			db.Entry(existingUser).State = EntityState.Detached;
+			db.Update(model);
+			db.SaveChanges();
 
-            model.Detail = user.Detail;
-            model.CCCD = user.CCCD;
-            model.Sex_name = user.Sex_name;
-            model.Avata = user.Avata;
-
-                db.Update(user);
-
-                db.SaveChanges();
-                    return RedirectToAction("Index");
-        }
-        [HttpPost]
+			return RedirectToAction("Index");
+		}
+		[HttpPost]
         public ActionResult DeleteAcc(int id)
         {
             var item = db.Users.Find(id);
@@ -103,7 +102,7 @@ namespace WebQuanLyhs.Controllers
             }
             return Json(new { success = false });
         }
-
+        
 		#region Category_Course
 		public IActionResult CategoryIndex()
 		{
@@ -250,6 +249,31 @@ namespace WebQuanLyhs.Controllers
 			return Json(new { success = false });
 		}
 
-		#endregion
-	}
+        #endregion
+        [HttpGet]        
+		public IActionResult Search(string query)
+		{
+			var timkiem = db.Users.AsQueryable();
+
+			if (query != null)
+			{
+				timkiem = timkiem.Where(p => p.Email.Contains(query));
+
+			}
+            if (!string.IsNullOrEmpty(query))
+            {
+                timkiem = timkiem.Where(u => u.Email.Contains(query));
+            }
+            var result = timkiem.Select(p => new User
+            {
+                User_id = p.User_id,
+                Email = p.Email,
+                Fullname = p.Fullname,
+                Role = p.Role,
+            });
+            return View(result);
+
+        }
+    }
+	
 }

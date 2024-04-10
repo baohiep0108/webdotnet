@@ -554,6 +554,7 @@ namespace WebQuanLyhs.Controllers
                 Include(sc => sc.Teacher_Course);
             return View(teacherclass);
         }
+        
         public ActionResult AddTeacherClass()
         {
 
@@ -596,8 +597,8 @@ namespace WebQuanLyhs.Controllers
             var item = db.Teacher_Classes.Find(id);
             return View(item);
         }
-        
-        [HttpPost]
+		
+		[HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult EditTeacherClass(Teacher_Class model)
         {
