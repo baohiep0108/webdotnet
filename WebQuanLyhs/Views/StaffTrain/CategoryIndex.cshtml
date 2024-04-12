@@ -49,16 +49,16 @@
 </div>
 </div>
 @section scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
     <script>
-
-
         $(document).ready(function () {
             $('body').on('click', '.btnDelete', function () {
                 var id = $(this).data("id");
-                var conf = confirm('You Delete Category Course ?');
+                var conf = confirm('Category Delete Account ?');
 
                 if (conf === true) {
-
                     $.ajax({
                         url: '/StaffTrain/DeleteCategory',
                         type: 'POST',
@@ -66,13 +66,20 @@
                         success: function (rs) {
                             if (rs.success) {
                                 $('#trow_' + id).remove();
-                                location.reload();
+                                Swal.fire({
+                                    icon: 'success',
+                                    title: 'Success!',
+                                    text: 'Category deleted successfully.',
+                                    showConfirmButton: false,
+                                    timer: 1500
+                                }).then(function () {
+                                    location.reload();
+                                });
                             }
                         }
                     });
                 }
             });
         });
-
     </script>
 }
