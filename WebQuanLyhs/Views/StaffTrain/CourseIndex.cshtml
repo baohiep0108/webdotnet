@@ -46,37 +46,7 @@
 </div>
 </div>
 </div>
-            @section scripts {
-                <script>
-
-
-                    $(document).ready(function () {
-                        $('body').on('click', '.btnDelete', function () {
-                            var id = $(this).data("id");
-                            var conf = confirm('You Delete Coures ?');
-
-                            if (conf === true) {
-
-                                $.ajax({
-                                    url: '/StaffTrain/DeleteCourse',
-                                    type: 'POST',
-                                    data: { id: id },
-                                    success: function (rs) {
-                                        if (rs.success) {
-                                            $('#trow_' + id).remove();
-                                            location.reload();
-                                        }
-                                    }
-                                });
-                            }
-                        });
-                    });
-
-                </script>
-            }
-
-
-@section scripts {
+           @section scripts {
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
@@ -84,7 +54,7 @@
         $(document).ready(function () {
             $('body').on('click', '.btnDelete', function () {
                 var id = $(this).data("id");
-                var conf = confirm('You Delete Account ?');
+                var conf = confirm('You Delete Coures ?');
 
                 if (conf === true) {
                     $.ajax({
