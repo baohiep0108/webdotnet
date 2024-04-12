@@ -18,7 +18,7 @@
                     <input type="hidden" asp-for="User_id" />
 
                     <div class="row mb-3 form-group">
-                        <label class="col-sm-2 col-form-label" asp-for="Fullname">Full name</label>
+                        <label class="col-sm-2 col-form-label" asp-for="Fullname"></label>
                         <div class="col-sm-10">
                             <input type="text" class="form-control" asp-for="Fullname">
                         </div>
@@ -26,7 +26,7 @@
                     </div>
 
                     <div class="row mb-3 form-group">
-                        <label class="col-sm-2 col-form-label" asp-for="Email">Email</label>
+                        <label class="col-sm-2 col-form-label" asp-for="Email"></label>
                         <div class="col-sm-10">
                             <div class="input-group input-group-merge">
                                 <input type="text" asp-for="Email" class="form-control" placeholder="john.doe">
@@ -36,17 +36,21 @@
                         </div>
                     </div>
                     <div class="row mb-3 form-group">
-                        <label class="col-sm-2 col-form-label" asp-for="Password">Password</label>
+                        <label class="col-sm-2 col-form-label" asp-for="Password"></label>
                         <div class="col-sm-10">
-                            <input class="form-control" asp-for="Password">
+                            <input type="password" class="form-control" value="@Model.Password" asp-for="Password">
                         </div>
                         <span asp-validation-for="Password" class="text-danger"></span>
 
                     </div>
-                    <div class="row mb-3 form-group">
-                        <label asp-for="Role" class="form-label control-label">Default select</label>
 
-                        <div class="col-md-12">
+                   
+
+
+                    <div class="row mb-3 form-group">
+                        <label class="col-sm-2 col-form-label" asp-for="Role_id"></label>
+
+                        <div class="col-sm-10">
                             @Html.DropDownListFor(model => model.Role_id, ViewBag.PhanLoaiSVList as SelectList, new { @class = "form-control" })
                             @Html.ValidationMessageFor(model => model.Role_id, "", new { @class = "text-danger" })
                         </div>

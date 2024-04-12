@@ -33,14 +33,12 @@
                             @Html.DisplayNameFor(model => model.Detail)
                         </th>
                         <th>
-                            Gender
+                            @Html.DisplayNameFor(model=>model.Sex_name)
                         </th>
                         <th>
                             @Html.DisplayNameFor(model => model.CCCD)
-                        </th
-                        <th>
-                            @Html.DisplayNameFor(model => model.Role)
                         </th>
+                       
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -51,8 +49,8 @@
                             <td>
                                 @Html.DisplayFor(modelItem => item.Email)
                             </td>
-                            <td>
-                                             ******
+                            <td class="passwordHeader">
+                                 @Html.DisplayFor(ModelItem=>item.Password)
                             </td>
                             <td>
                                 @Html.DisplayFor(modelItem => item.Phone)
@@ -69,11 +67,7 @@
                             <td>
                                 @Html.DisplayFor(modelItem => item.CCCD)
                             </td>
-
-
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Role.Role_name)
-                            </td>
+                            
                             <td>
                                 <a asp-action="EditStudent" class="btn-sm btn btn btn-warning" asp-route-id="@item.User_id">Edit</a> |
 
@@ -87,16 +81,16 @@
     </div>
 </div>
 @section scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
     <script>
-
-
         $(document).ready(function () {
             $('body').on('click', '.btnDelete', function () {
                 var id = $(this).data("id");
                 var conf = confirm('You Delete Account ?');
 
                 if (conf === true) {
-
                     $.ajax({
                         url: '/StaffTrain/DeleteStudent',
                         type: 'POST',
@@ -104,13 +98,20 @@
                         success: function (rs) {
                             if (rs.success) {
                                 $('#trow_' + id).remove();
-                                location.reload();
+                                Swal.fire({
+                                    icon: 'success',
+                                    title: 'Success!',
+                                    text: 'Account deleted successfully.',
+                                    showConfirmButton: false,
+                                    timer: 1500
+                                }).then(function () {
+                                    location.reload();
+                                });
                             }
                         }
                     });
                 }
             });
         });
-
     </script>
 }

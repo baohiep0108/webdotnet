@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
@@ -17,9 +18,9 @@ namespace BusinessObject.Viewmodel
 
         [Required(ErrorMessage = "Password is incorrect")]
         [DataType(DataType.Password)]
-        public string ?Password { get; set; }
+        public string ?Password { get; set; }   
         public string ?Fullname { get; set; }
-
+        [DisplayName("Role")]
         public int Role_id { get; set; }
 
 
