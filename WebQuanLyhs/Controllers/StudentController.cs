@@ -10,6 +10,7 @@ using System.Security.Claims;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 using WebQuanLyhs.Helps;
 using WebQuanLyhs.DTO;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace WebQuanLyhs.Controllers
 {
@@ -132,7 +133,7 @@ namespace WebQuanLyhs.Controllers
 
 
         }
-
+       
 
 
 

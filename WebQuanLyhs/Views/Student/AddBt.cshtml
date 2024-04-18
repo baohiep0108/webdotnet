@@ -3,7 +3,7 @@
     Layout = "_LayoutStudentandTeacher";
 }
 <div class="card-body">
-    <div class="background-content bg-09">
+    <div style="justify-content:center" class="background-content bg-12">
 
         <form style="padding:10px; margin:5px" asp-action="AddBt" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -12,7 +12,6 @@
             <div class="mb-3 row">
                 <label class="col-lg-6 col-form-label" asp-for="Link_submit_assignments">Link submit assignments</label>
                 <div class="col-sm-6">
-                    <!-- Sử dụng col-sm-6 để input chiếm phần còn lại của hàng -->
                     <input asp-for="Link_submit_assignments" class="form-control phone-mask" />
                     <span asp-validation-for="Link_submit_assignments" class="text-danger"></span>
                 </div>
@@ -20,8 +19,7 @@
 
             <div class="form-group row">
                 <div class="col-sm-6 offset-lg-6">
-                    <!-- Offset-lg-6 để tạo khoảng cách với label -->
-                    <input type="submit" value="Save" class="btn btn-outline-success me-2" /> <!-- Thêm class me-2 để tạo khoảng cách giữa 2 nút -->
+                    <input type="submit" value="Save" class="btn btn-outline-success me-2" /> 
                     <a class="btn btn-sm btn-danger" asp-action="Index">Back to List</a>
                 </div>
             </div>

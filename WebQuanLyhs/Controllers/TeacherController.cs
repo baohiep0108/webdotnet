@@ -152,9 +152,9 @@ namespace WebQuanLyhs.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult ExerciseEdit(Exercise model)
+        public IActionResult ExerciseEdit(AddExercise model, int id )
         {
-            var exsercise = db.Exercises.FirstOrDefault(e => e.Exercise_id == model.Exercise_id);
+            var exsercise = db.Exercises.FirstOrDefault(e => e.Exercise_id == id);
 
             exsercise.Exercise_name = model.Exercise_name;
             exsercise.Creat_time = DateTime.Now;
@@ -169,6 +169,6 @@ namespace WebQuanLyhs.Controllers
 
 
         }
-
+       
     }
 }

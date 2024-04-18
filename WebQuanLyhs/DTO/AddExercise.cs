@@ -1,4 +1,4 @@
-﻿namespace WebQuanLyhs.DTO
+﻿    namespace WebQuanLyhs.DTO
 {
     public class AddExercise
     {
@@ -10,3 +10,8 @@
         public int Course_id { get; set; }
     }
 }
+
+
+
+
+
