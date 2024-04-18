@@ -33,13 +33,22 @@
                                     {
                                         <a href="~/Hinh/Exercise/@exercise.File_name" class="btn btn-primary" download>Download</a>
                                     }
+                                    <br />
+                                    <br />
+
+                                  
+
                                     @if (!string.IsNullOrEmpty(exercise.Link_submit_assignments))
                                     {
-                                        <a class="btn btn-success" asp-action="AddBt" asp-route-id="@exercise.Exercise_id">Submit assignments</a>
+                                        <a class="btn btn-success" asp-action="AddBt" asp-route-id="@exercise.Exercise_id">Submit  </a>
+                                        @exercise.Link_submit_assignments
+
                                     }
                                     else
                                     {
                                         <a class="btn btn-success" asp-action="AddBt" asp-route-id="@exercise.Exercise_id">Submit</a>
+                                        @exercise.Link_submit_assignments
+
                                     }
                                 </div>
                             </li>
